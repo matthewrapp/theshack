@@ -443,6 +443,10 @@ footer a {
 		height: 58vh;
 	}
 	
+	.nav-bar {
+		max-width: 40%;
+	}
+	
 }
 
 @media (max-width: 590px) {
@@ -455,6 +459,10 @@ footer a {
 	.carousel-item {
 		height: 48vh;
 	}
+	
+	.nav-bar {
+		max-width: 40%;
+	}
 }
 
 @media (max-width: 399px) {
@@ -466,6 +474,9 @@ footer a {
 	
 	.carousel-item {
 		height: 30vh;
+	}
+	.nav-bar {
+		max-width: 40%;
 	}
 }
 
