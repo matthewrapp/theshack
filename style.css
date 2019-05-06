@@ -238,6 +238,13 @@ main {
 	margin-top: 8px;
 }
 
+.row:after {
+	display: none!important;
+}
+.row:before {
+	display: none!important;
+}
+
 
 .menu1-row {
 	margin: 0px auto;
