@@ -151,6 +151,7 @@ h6 {
 	height: 80px;
 	border-radius: 0px!important;
 	justify-content: left;
+	z-index: -1;
 }
 
 .nav-link {
