@@ -1,0 +1,423 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Passion+One:400,700');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500');
+
+
+
+/*============= BASE CSS =============*/
+
+body {
+  font-family: 'Noto Sans JP', sans-serif!important;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.offset:before {
+	display: block;
+	content: "";
+	height: 4rem;
+	margin: -4rem 0 0 0;
+}
+
+a {
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 48px!important;
+}
+
+h2 {
+	font-size: 42px!important;
+	font-weight: 
+}
+
+h3 {
+	font-size: 36px!important;
+}
+
+h4 {
+	font-size: 26px!important;
+}
+
+h5 {
+	font-size: 22px!important;
+}
+
+h6 {
+	font-size: 18px!important;
+	font-weight: 700!important;
+}
+
+.heading-underline {
+	width: 5rem;
+	height: .1rem;
+	background-color: #000;
+	margin: 0 auto 1rem;
+}
+
+.sub-heading-underline {
+	width: 3rem;
+	height: .1rem;
+	background-color: #000;
+	margin: 0 auto 1rem;
+}
+
+/*============ NAV CSS ================*/
+
+#nav-chicken {
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #000;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	margin-bottom: 100px;
+	z-index: 1;
+}
+
+#nav-chicken .row {
+	margin: 0px auto!important;
+	justify-content: center;
+
+}
+
+.order-food-btn {
+	background-image: linear-gradient(0deg, rgba(225, 36, 36, .5), rgba(225, 36, 36, 1))!important;
+	border: none!important;
+	border-radius: 12px!important;
+	padding: 9px 16px!important;
+	font-size: 15px!important;
+	color: #fff!important;
+	align-self: center;
+}
+
+.order-food-btn a {
+	
+}
+
+.order-food-btn:hover {
+	background-image: linear-gradient(0deg, rgba(200, 36, 36, .8), rgba(200, 36, 36, 1))!important;
+	transition: all .1s ease-in-out;
+	transform: scale(1.02);
+}
+
+.chicken-logo {
+	width: 100%;
+	display: inline!important;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.chicken-logo:hover {
+	border: none;
+	color: white;
+  	opacity: .99;
+  	transition: all .2s cubic-bezier(0.46, 0.1, 0.58, 1);
+  	transform: scale(1.02);
+}
+
+.chicken-logo-link {
+	padding: 0px 0px 0px 0px!important;
+	margin: 0px 0px 0px 10px;
+	text-align: right;
+	height: auto!important;
+	width: 25%;
+}
+
+/* .logo-border {
+	width: 1px;
+	height: 40px;
+	background-color: #bbb;
+	margin-left: 12px;
+} */
+
+.navbar {
+	background-color: #000!important;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-family: 'Noto Sans JP', sans-serif;
+	width: 100%;
+	margin-bottom: 0px!important;
+	height: 80px;
+	border-radius: 0px!important;
+	justify-content: left;
+}
+
+.nav-link {
+	color: #eee!important;
+	font-size: 15px;
+	letter-spacing: .5px;
+	padding: 0px 6px!important;
+}
+
+.nav-link:hover {
+	color: #FBED21!important;
+	transform: scale(1.02);
+}
+
+.dropdown-menu {
+		background-color: #000!important;
+	}
+	
+.dropdown-item {
+		color: #eee!important;
+	}
+	
+.dropdown-item:hover {
+	background-color: #000!important;
+	color: #FBED21!important;
+	transform: scale(1.02);
+}
+
+/*============ CAROUSEL CSS ================*/
+
+header{
+	background-color: rgba(0, 0, 0, 0);
+	padding: 80px 0px 0px 0px;
+}
+
+.carousel {
+	animation-duration: .2s!important;
+}
+
+.carousel-item {
+  height: 75vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+}
+
+.carousel-indicators {
+	z-index: 0!important;
+}
+
+.theshack-logo {
+	height: 0;
+	width: 80%;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.theshack-logo img {
+	background-color: transparent!important;
+	width: 640px;
+	margin-top: 35px;
+}
+
+/*============ HOME MENU CSS ================*/
+
+main {
+	text-align: center;
+	max-width: 100%;
+	background-color: #fff;
+	margin-top: -2px;
+	padding: 20px 0px 40px 0px;
+}
+
+.cls-header h2 {
+	margin: 5px auto!important;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 3px;
+}
+
+.cls-header .heading-underline {
+	margin-bottom: 20px;
+	margin-top: 8px;
+}
+
+
+.menu1-row {
+	margin: 0px auto;
+	width: 100%!important;
+	max-width: 100%!important;
+}
+
+.menu1-btn-full {
+	width: 30%;
+	padding: 8px!important;
+}
+
+
+.menu1-row .card {
+	padding: 30px 0px!important;
+	background-image: linear-gradient(0deg, rgba(251, 237, 33, .5), rgba(251, 237, 33, 1))!important;
+	box-shadow: 0px 0px 1.5px #000;
+	transform: scale(1.02);
+}
+
+.menu1-btn-full:hover {
+	transform: scale(1.02);
+}
+
+.cls-category-card-item-card:hover {
+	transform: scale(1.02);
+}
+
+.menu1-btn-icon img {
+	max-width: 30%;
+	padding: 0px 0px 15px 0px;
+}
+
+.menu1-btn-icon img:hover {
+	transform: scale(1.01);
+}
+
+.menu1-btn-text {
+	font-size: 22px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1.3px;
+}
+
+.menu1-btn-text:hover {
+	transform: scale(1.01);
+}
+
+.cls-catergory-card {
+	position: relative;
+	z-index: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+/*============ LOCATIONS CSS ================*/
+
+.locations .card {
+	margin: 10px 10px!important;
+}
+
+.locations .card-text {
+	font-size: 12px;
+	color: #777;
+	margin-top: -2px;
+}
+
+.locations-maps {
+	width: 80%;
+	height: auto;
+	padding: 5px 0px 10px 0px;
+}
+
+.locations .card .btn {
+	display: block;
+	margin: 5px auto;
+	width: 60%;
+}
+
+
+/*============ FOOTER CSS ================*/
+
+footer {
+	background-color: #000;
+}
+
+.footer-copyright {
+	color: #aaa;
+	padding: 15px 0px 18px 0px!important;
+	border-top: 1px solid #ccc;
+}
+
+footer a {
+	color: #ccc;
+}
+
+.top-footer {
+	background-image: linear-gradient(0deg, rgba(251, 237, 33, .8), rgba(251, 237, 33, 1))!important;
+	border-top: 1px solid #000;
+	color: #000;
+	font-family: 'Noto Sans JP', sans-serif!important;
+}
+
+.mr-4:hover {
+	transform: scale(1.1);
+}
+
+.mr-4 {
+	font-size: 16px;
+}
+
+.middle-footer {
+	color: #fff;
+	padding: 0px 0px 20px 0px!important;
+}
+
+.middle-footer-col {
+	text-align: right!important;
+}
+
+.mb-0 {
+	margin: 0px;
+}
+
+.mr-3 {
+	margin-right: 0rem!important;
+	margin-left: 1rem;
+}
+
+
+@media (max-width: 767px) {
+	.navbar-collapse {
+		background-color: #000!important;
+		max-width: 100%!important;
+		z-index: 1!important;
+		position: absolute!important;
+		top: 60px!important;
+		padding: 10px 50px 20px 20px!important;
+	}
+	
+	.nav-link {
+		padding: 10px 10px!important;
+	}
+	
+	.navbar-nav {
+		margin: 0px auto!important;
+	}
+	
+	.dropdown-menu {
+		background-color: #000;
+		padding: 0px 0px 0px 24px!important;
+	}
+	
+	.dropdown-item {
+		color: #eee!important;
+		padding: 3px 0px!important;
+	}
+	.middle-footer-col {
+	text-align: center!important;
+}
+
+}
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
