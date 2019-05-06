@@ -449,6 +449,9 @@ footer a {
 	.nav-bar .row {
 		max-width: 60%;
 	}
+	.navbar-brand {
+		margin-left: 0px;
+	}
 	
 }
 
@@ -470,6 +473,9 @@ footer a {
 	.nav-bar .row {
 		max-width: 60%;
 	}
+	.navbar-brand {
+		margin-left: 0px;
+	}
 }
 
 @media (max-width: 399px) {
@@ -488,6 +494,9 @@ footer a {
 	
 	.nav-bar .row {
 		max-width: 60%;
+	}
+	.navbar-brand {
+		margin-left: 0px;
 	}
 }
 
