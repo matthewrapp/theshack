@@ -446,6 +446,9 @@ footer a {
 	.nav-bar {
 		max-width: 40%;
 	}
+	.nav-bar .row {
+		max-width: 60%;
+	}
 	
 }
 
@@ -463,6 +466,10 @@ footer a {
 	.nav-bar {
 		max-width: 40%;
 	}
+	
+	.nav-bar .row {
+		max-width: 60%;
+	}
 }
 
 @media (max-width: 399px) {
@@ -473,10 +480,14 @@ footer a {
 	}
 	
 	.carousel-item {
-		height: 30vh;
+		height: 35vh;
 	}
 	.nav-bar {
 		max-width: 40%;
+	}
+	
+	.nav-bar .row {
+		max-width: 60%;
 	}
 }
 
