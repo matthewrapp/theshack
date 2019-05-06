@@ -1,17 +1,22 @@
-/* Matthew Rapp CSS */
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:500,700');
-@import url('https://fonts.googleapis.com/css?family=Tajawal:400,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Passion+One:400,700');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500');
+
+
+
+/*============= BASE CSS =============*/
 
 body {
-	overflow-x: hidden;
-	font-family: 'Roboto Condensed', sans-serif;
-	color: #505962;
-	max-width: 100%:
+  font-family: 'Noto Sans JP', sans-serif!important;
+  max-width: 100%;
+  min-width: 100%;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
 }
 
 .offset:before {
@@ -21,393 +26,440 @@ body {
 	margin: -4rem 0 0 0;
 }
 
-/*-- Navigation --*/
-.navbar {
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: .9rem;
-	letter-spacing: .1rem;
-	background-color: rgba(0, 0, 0, 0.8)!important;
-}
-.name-brand {
-	margin: 0 0 0 8px;
-	font-size: 26px;
-	color: #a99f92;
-	letter-spacing: 3px;
-	font-family: 'Roboto Condensed', sans-serif;
+a {
+	cursor: pointer;
 }
 
-.navbar-dark .navbar-nav .nav-link.active {
-	color: #a99f92!important;
+h1 {
+	font-size: 48px!important;
 }
 
-.navbar-brand img {
-	height: 4rem;
+h2 {
+	font-size: 42px!important;
+	font-weight: 
 }
 
-.navbar-nav li {
-	padding: 0, .7rem, 0, 0;
+h3 {
+	font-size: 36px!important;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-	color: #a99f92;
-	padding: .8rem, 0, 0, 0;
+h4 {
+	font-size: 26px!important;
 }
 
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
-	color: #fff;
-}
-/*-- End Navigation --*/
-
-/*-- Start of Landing Page --*/
-.home-inner {
-	background-image: url(img/pic1.JPG);
+h5 {
+	font-size: 22px!important;
 }
 
-.caption {
-	width: 100%;
-	max-width: 100%;
-	position: absolute;
-	top: 54%;
-	color: #fff;
-	z-index: 1;
-	text-transform: uppercase;
-}
-
-.caption h1 {
-	font-size: 2.8rem;
-	font-weight: 700;
-	letter-spacing: .3rem;
-	text-shadow: .1rem .1rem .8rem black;
-	margin-bottom: -8px;
-}
-
-.caption h3 {
-	font-size: 2rem;
-	text-shadow: .1rem .1rem .5rem black;
-	padding: 1.6rem 0rem .6rem 0rem;
-}
-
-
-/*-- End of Landing Page --*/
-
-/*-- Start of Music Page --*/
-
-#music .row {
-	background-color: rgba(0, 0, 0, .7);
-	margin-top: -16px;
-	padding-top: 10px;
-	
-}
-.narrow {
-	width: 45%;
-	margin: 1.5rem auto;
-	padding-top: 2rem;
-}
-
-.narrow h1 {
-	font-size: 2.4rem;
-}
-
-.title {
-	width: 90%;
-	display: block;
-	margin: 0 auto;
-	color: #fff;
-	padding: 70px 0px 0px 0px;
-}
-
-.place-bg-artwork {
-	background-image: url(img/mr-place.png);
-	background-size: cover;
-	background-position: center center;
-	max-width: 100%;
-	
-}
-
-.place-artwork{
-	border: .1rem solid rgba(0, 0, 0, .1);
-  padding: 1px;
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, .4);
-  max-width: 100%;
-  }
-
-.title p {
-	text-align: left;
-	margin: 1rem 0 0 3rem;
-	font-size: 14px;
-	padding-bottom: 5px;
-}
-
-.mobile-switch , .img-section {
-	min-width: 50%;
-}
-
-.title h1 {
-	font-size: 50px;
-	letter-spacing: 2px;
-}
-
-.stream-download-div {
-	padding: 20px 0px;
-}
-
-.stream-download-btn {
-	font-size: 18px;
-	padding: 10px 30px;
-	border-radius: 0px;
-	background-color: #f7f7f7;
-	color: #000;
-}
-.stream-download-btn:hover {
-	background-color: #a99f92;
-}
-
-.svg-inline--fa {
-	margin-right: 6px!important;
-}
-
-/* .btn-secondary {
-	border-width: medium;
-	border-radius: 0;
-	text-transform: uppercase;
-	font-size: 1.2rem;
-	padding: .6rem 1.2rem;
-	margin: 1rem;
-	color: #fff;
-	background-color: #1ebba3;
-	border-color: #1ebba3;
-}
-
-.btn-secondary:hover {
-	background-color: #189582;
-	border-color: #1ebba3;
-}
-
-.stream-music-btn {
-	display: block;
-	margin: 0 auto;
-	align-items: center;
-}
-	
-.btn-lg {
-	border-width: thin;
-	border-radius: .2rem;
-	padding: .4rem 1.4rem;
-	font-size: 1.8rem;
-	margin: .4rem auto;
-}
-
-.stream-music-btn .btn-lg { 
-	font-size: 1rem;
-	color: #000;
-	border-color: #000;
-	width: 30%;
-}
-
-.stream-music-btn .btn-lg:hover {
-	background-color: black;
-	color: #fff;
-} */
-
-
-/*-- End of Music Page --*/
-
-
-#tour .col-12 {
-	padding: 28px;
-	background-color: #000;
-}
-
-.bit-top-track-button {
-	display: none;
-}
-
-.tour-heading {
-	text-align: center;
-	color: #fff;
-	padding-bottom: 5px;
-}
-
-.tour-heading h3 {
-	letter-spacing: 3px;
-	font-size: 48px;
-	margin: -5px auto;
-}
-
-.tour-heading h6 {
-	letter-spacing: 3px;
-	font-size: 20px;
-	color: #a99f92;
+h6 {
+	font-size: 18px!important;
+	font-weight: 700!important;
 }
 
 .heading-underline {
-	width: 2rem;
-	height: .05rem;
-	background-color: #a99f92;
-	margin: 0 auto;
-	margin-bottom: 10px;
-	text-align: center; 
+	width: 5rem;
+	height: .1rem;
+	background-color: #000;
+	margin: 0 auto 1rem;
 }
 
-
-/*-- End of Tour Page --*/
-
-/*-- Start of Footer Page --*/
-
-.offset:before {
-	margin-top: -5rem!important;
+.sub-heading-underline {
+	width: 3rem;
+	height: .1rem;
+	background-color: #000;
+	margin: 0 auto 1rem;
 }
 
-footer {
-	background-color: #8d8272;
-	color: #fff;
-	padding: 2rem 0;
-	margin-top: 1rem;
-	padding-bottom: 16px;
+/*============ NAV CSS ================*/
+
+#nav-chicken {
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #000;
+	align-items: center;
+	max-width: 100%;
+	min-width: 100%;
+	height: 80px;
+	position: fixed;
+	margin-bottom: 100px;
+	z-index: 1;
 }
 
-footer strong {
-	font-size: 24px;
-	letter-spacing: 2.5px;
+#nav-chicken .row {
+	/* margin: 0px auto!important; */
+	justify-content: center;
+
 }
 
-.personal-info {
-	margin-top: 8px!important;
-	letter-spacing: 1.5x;
+.order-food-btn {
+	background-image: linear-gradient(0deg, rgba(225, 36, 36, .5), rgba(225, 36, 36, 1))!important;
+	border: none!important;
+	border-radius: 12px!important;
+	padding: 9px 16px!important;
+	font-size: 15px!important;
+	color: #fff!important;
+	align-self: center;
 }
 
-.personal-social {
-	margin-top: -10px;
-	margin-bottom: -30px;
-}
-
-footer img {
-	height: 3rem;
-	margin: 1.5rem 0;
-}
-
-footer a {
-	color: #fff;
-}
-
-footer svg.svg-inline--fa {
-	font-size: 1.6rem;
-	margin: 1.2rem .5rem 0 0;
-}
-
-footer a:hover {
-	color: #a99f92!important;
-}
-
-footer svg.svg-inline--fa:hover {
-	color: #a99f92!important;
-}
-
-hr.socket {
-	width: 100%;
-	border-top: .2rem solid #666b71;
-	margin-top: 3rem;
-}
-
-/*-- End of Footer Page --*/
-
-
-/*-- Media Queries --*/
-
-@media (max-width: 767px) {
-.caption h1 {
-	font-size: 1.3rem;
-	letter-spacing: .15;
-	padding-bottom: .5rem;
-	margin-bottom: -8px;
-}
-
-.caption h3 {
-	font-size: 1.2rem;
-	padding-bottom: 1.2rem;
-}
-
-#music .row {
-	width: 100%;
-	text-align: center;
-}
-
-.img-section , .mobile-switch {
-	display: block;
-	width: 100%;
-}
-
-.title {
-	display: none;
-}
-
-.mobile-switch {
-	padding: 0px!important;
-	margin: 0px auto!important;
-}
-
-.title , .img-section {
-	padding: 0px!important;
-	margin: 0px auto!important;
-}
-
-.btn-lg {
-	padding: .3rem 1rem;
-	font-size: 1rem;
-}
-
-.narrow h1 {
-	font-size: 1.5rem;
-}
-
-.narrow p.lead{
-	font-size: .9rem;
-}
-
-.clients img {
-	max-width: 50%;
-	display: block;
-	margin: 0 auto;
-}
-
-.navbar {
-	background-color: rgba(0, 0, 0, 0.85)!important;
-}
-
-.navbar a{
-	text-align: center;
+.order-food-btn a {
 	
 }
 
+.order-food-btn:hover {
+	background-image: linear-gradient(0deg, rgba(200, 36, 36, .8), rgba(200, 36, 36, 1))!important;
+	transition: all .1s ease-in-out;
+	transform: scale(1.02);
 }
 
-/*
-
-@media (min-width: 768px) {
-
-.caption h1 {
-	font-size: 1.3rem;
-	letter-spacing: .15;
-	padding-bottom: .5rem;
-	margin-bottom: -8px;
+.chicken-logo {
+	width: 100%;
+	display: inline!important;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
-.caption h3 {
-	font-size: 1.2rem;
-	padding-bottom: 1.2rem;
+.chicken-logo:hover {
+	border: none;
+	color: white;
+  	opacity: .99;
+  	transition: all .2s cubic-bezier(0.46, 0.1, 0.58, 1);
+  	transform: scale(1.02);
 }
 
-.btn-lg {
-	padding: .3rem 1rem;
-	font-size: 1rem;
+.chicken-logo-link {
+	padding: 0px 0px 0px 0px!important;
+	margin: 0px 0px 0px 10px;
+	text-align: right;
+	height: auto!important;
+	width: 25%;
 }
 
-.narrow h1 {
-	font-size: 1.5rem;
-}
-
+/* .logo-border {
+	width: 1px;
+	height: 40px;
+	background-color: #bbb;
+	margin-left: 12px;
 } */
+
+.navbar {
+	background-color: #000!important;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-family: 'Noto Sans JP', sans-serif;
+	width: 100%;
+	margin-bottom: 0px!important;
+	height: 80px;
+	border-radius: 0px!important;
+	justify-content: left;
+}
+
+.nav-link {
+	color: #eee!important;
+	font-size: 15px;
+	letter-spacing: .5px;
+	padding: 0px 6px!important;
+}
+
+.nav-link:hover {
+	color: #FBED21!important;
+	transform: scale(1.02);
+}
+
+.dropdown-menu {
+		background-color: #000!important;
+	}
+	
+.dropdown-item {
+		color: #eee!important;
+	}
+	
+.dropdown-item:hover {
+	background-color: #000!important;
+	color: #FBED21!important;
+	transform: scale(1.02);
+}
+
+/*============ CAROUSEL CSS ================*/
+
+header{
+	background-color: rgba(0, 0, 0, 0);
+	padding: 80px 0px 0px 0px;
+}
+
+.carousel {
+	animation-duration: .2s!important;
+}
+
+.carousel-item {
+  height: 75vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+}
+
+.carousel-indicators {
+	z-index: 0!important;
+}
+
+.theshack-logo {
+	height: 0;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.theshack-logo img {
+	background-color: transparent!important;
+	width: 800px;
+	margin-top: 35px;
+}
+
+/*============ HOME MENU CSS ================*/
+
+main {
+	text-align: center;
+	max-width: 100%;
+	background-color: #fff;
+	margin-top: -2px;
+	padding: 20px 0px 40px 0px;
+}
+
+.cls-header h2 {
+	margin: 5px auto!important;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 3px;
+}
+
+.cls-header .heading-underline {
+	margin-bottom: 20px;
+	margin-top: 8px;
+}
+
+
+.menu1-row {
+	margin: 0px auto;
+	width: 100%!important;
+	max-width: 100%!important;
+}
+
+.menu1-btn-full {
+	width: 30%;
+	padding: 8px!important;
+}
+
+
+.menu1-row .card {
+	padding: 30px 0px!important;
+	background-image: linear-gradient(0deg, rgba(251, 237, 33, .5), rgba(251, 237, 33, 1))!important;
+	box-shadow: 0px 0px 1.5px #000;
+	transform: scale(1.02);
+}
+
+.menu1-btn-full:hover {
+	transform: scale(1.02);
+}
+
+.cls-category-card-item-card:hover {
+	transform: scale(1.02);
+}
+
+.menu1-btn-icon img {
+	max-width: 30%;
+	padding: 0px 0px 15px 0px;
+}
+
+.menu1-btn-icon img:hover {
+	transform: scale(1.01);
+}
+
+.menu1-btn-text {
+	font-size: 22px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1.3px;
+}
+
+.menu1-btn-text:hover {
+	transform: scale(1.01);
+}
+
+.cls-catergory-card {
+	position: relative;
+	z-index: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+/*============ LOCATIONS CSS ================*/
+
+.locations .card {
+	margin: 10px 10px!important;
+}
+
+.locations .card-text {
+	font-size: 12px;
+	color: #777;
+	margin-top: -2px;
+}
+
+.locations-maps {
+	width: 80%;
+	height: auto;
+	padding: 5px 0px 10px 0px;
+}
+
+.locations .card .btn {
+	display: block;
+	margin: 5px auto;
+	width: 60%;
+}
+
+
+/*============ FOOTER CSS ================*/
+
+footer {
+	background-color: #000;
+}
+
+.footer-copyright {
+	color: #aaa;
+	padding: 15px 0px 18px 0px!important;
+	border-top: 1px solid #ccc;
+}
+
+footer a {
+	color: #ccc;
+}
+
+.top-footer {
+	background-image: linear-gradient(0deg, rgba(251, 237, 33, .8), rgba(251, 237, 33, 1))!important;
+	border-top: 1px solid #000;
+	color: #000;
+	font-family: 'Noto Sans JP', sans-serif!important;
+}
+
+.mr-4:hover {
+	transform: scale(1.1);
+}
+
+.mr-4 {
+	font-size: 16px;
+}
+
+.middle-footer {
+	color: #fff;
+	padding: 0px 0px 20px 0px!important;
+}
+
+.middle-footer-col {
+	text-align: right!important;
+}
+
+.mb-0 {
+	margin: 0px;
+}
+
+.mr-3 {
+	margin-right: 0rem!important;
+	margin-left: 1rem;
+}
+
+@media (max-width: 991px) {
+	
+	.theshack-logo img {
+		
+	}
+	
+	.carousel-item {
+		
+	}
+	
+	
+}
+
+@media (max-width: 820px) {
+	.theshack-logo img {
+		width: 650px;
+		margin-top: 60px;
+	}
+	
+	.carousel-item {
+		height: 68vh;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.navbar-collapse {
+		background-color: #000!important;
+		max-width: 100%!important;
+		z-index: 1!important;
+		position: absolute!important;
+		top: 60px!important;
+		padding: 10px 50px 20px 20px!important;
+	}
+	
+	.nav-link {
+		padding: 10px 10px!important;
+	}
+	
+	.navbar-nav {
+		margin: 0px auto!important;
+	}
+	
+	.dropdown-menu {
+		background-color: #000;
+		padding: 0px 0px 0px 24px!important;
+	}
+	
+	.dropdown-item {
+		color: #eee!important;
+		padding: 3px 0px!important;
+	}
+	.middle-footer-col {
+	text-align: center!important;
+}
+}
+
+@media (max-width: 685px) {
+	
+	.theshack-logo img {
+		width: 550px;
+		margin-top: 45px;
+	}
+	
+	.carousel-item {
+		height: 58vh;
+	}
+	
+}
+
+@media (max-width: 590px) {
+	
+	.theshack-logo img {
+		width: 450px;
+		margin-top: 45px;
+	}
+	
+	.carousel-item {
+		height: 48vh;
+	}
+}
+
+@media (max-width: 399px) {
+	
+	.theshack-logo img {
+		width: 300px;
+		margin-top: 45px;
+	}
+	
+	.carousel-item {
+		height: 30vh;
+	}
+}
 
 
 
