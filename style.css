@@ -449,8 +449,16 @@ footer a {
 	.nav-bar .row {
 		max-width: 60%;
 	}
-	.navbar-brand {
+	/* .navbar-brand {
 		margin-left: 0px;
+	} */
+	
+	.chicken-logo {
+		display: none!important;
+	}
+	
+	#nav-chicken .row {
+		margin: 0px 12px!important;
 	}
 	
 }
@@ -473,9 +481,15 @@ footer a {
 	.nav-bar .row {
 		max-width: 60%;
 	}
-	.navbar-brand {
-		margin-left: 0px;
+	
+	.chicken-logo {
+		display: none!important;
 	}
+	
+	#nav-chicken .row {
+		margin: 0px 12px!important;
+	}
+	
 }
 
 @media (max-width: 399px) {
@@ -495,9 +509,15 @@ footer a {
 	.nav-bar .row {
 		max-width: 60%;
 	}
-	.navbar-brand {
-		margin-left: 0px;
+	
+	#nav-chicken .row {
+		margin: 0px 12px!important;
 	}
+	
+	.chicken-logo {
+		display: none!important;
+	}
+	
 }
 
 
