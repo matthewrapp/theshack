@@ -9,6 +9,10 @@
 
 /*============= BASE CSS =============*/
 
+html {
+	scroll-behavior: smooth;
+}
+
 html, body {
   font-family: 'Noto Sans JP', sans-serif!important;
   width: 100%;
@@ -16,8 +20,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+  
 }
 .starter-template {
   padding: 3rem 1.5rem;
